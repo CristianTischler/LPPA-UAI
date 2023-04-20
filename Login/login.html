@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario de inicio de sesión</title>
+    <style>
+      form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: 50px; */
+        background-color: rgb(72, 67, 67);
+        box-shadow: rgb(0, 0, 0) 0px 0px 20px;
+        border-radius: 15px;
+        width: fit-content;
+        height: fit-content;
+        padding: 30px;
+        z-index: 1;
+      }
+      .imgIconoForm {
+        width: 120px;
+        /* height: 100px; */
+        margin-bottom: 20px;
+        position: absolute;
+        top: -85px;
+        left: -55px;
+        animation: animate 1.5s infinite ease alternate;
+      }
+      label {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+        color: #ffffff;
+        font-family: CenturyGothic, AppleGothic, sans-serif;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 250px;
+        font-size: 16px;
+        text-align: center;
+      }
+
+      input:hover {
+        border: 1px solid #4caf50;
+        transform: scale(1.05);
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+      }
+      .custom-btn {
+        width: 130px;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+          7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+          4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+        outline: none;
+      }
+      .btn-8 {
+        background-color: #4caf50;
+        margin-top: 20px;
+        background-image: #4caf50;
+        line-height: 42px;
+        padding: 0;
+        border: none;
+      }
+      .btn-8 span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .btn-8:before,
+      .btn-8:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        background: #3e8e41;
+        /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+        transition: all 0.3s ease;
+      }
+      .btn-8:before {
+        height: 0%;
+        width: 2px;
+      }
+      .btn-8:after {
+        width: 0%;
+        height: 2px;
+      }
+      .btn-8:hover:before {
+        height: 100%;
+      }
+      .btn-8:hover:after {
+        width: 100%;
+      }
+      .btn-8:hover {
+        background: whitesmoke;
+      }
+      .btn-8 span:hover {
+        color: #3e8e41;
+      }
+      .btn-8 span:before,
+      .btn-8 span:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        background: #3e8e41;
+        /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+        transition: all 0.3s ease;
+      }
+      .btn-8 span:before {
+        width: 2px;
+        height: 0%;
+      }
+      .btn-8 span:after {
+        height: 2px;
+        width: 0%;
+      }
+      .btn-8 span:hover:before {
+        height: 100%;
+      }
+      .btn-8 span:hover:after {
+        width: 100%;
+      }
+      div {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-image: url("hambuguesasFondo.jpg"); */
+        /* background-size: cover; */
+        z-index: 0;
+      }
+      .imgFondo {
+        position: absolute;
+        filter: blur(4px);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+      body {
+        margin: 0;
+      }
+      h1 {
+        color: white;
+        font-size: 24px;
+        font-family: CenturyGothic, AppleGothic, sans-serif;
+      }
+
+      @keyframes animate {
+        to {
+          transform: translateY(15px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img class="imgFondo" src="hambuguesasFondo.jpg" />
+      <form>
+        <img class="imgIconoForm" src="hamburguesaFuego.png" alt="icono" />
+        <h1>Inicio de sesión</h1>
+        <label for="username">Usuario:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Ingresa tu usuario"
+        />
+        <label for="password">Contraseña:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Ingresa tu contraseña"
+        />
+        <button class="custom-btn btn-8" type="submit">
+          <span>Iniciar sesión</span>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
