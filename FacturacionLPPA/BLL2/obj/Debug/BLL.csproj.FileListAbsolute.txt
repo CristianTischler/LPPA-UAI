@@ -1,0 +1,11 @@
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\bin\Debug\BLL2.dll
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\bin\Debug\BLL2.pdb
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\bin\Debug\BE2.dll
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\bin\Debug\DAL2.dll
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\bin\Debug\BE2.pdb
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\bin\Debug\DAL2.pdb
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\obj\Debug\BLL2.dll
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BLL2\obj\Debug\BLL2.pdb

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2WThJ86k1IqI1TP2pO7tUG5qq2LPIF3eKNndj9+k59T6+Q0TE6ERIGHJiZxFCvA0Otbs6YveXxAx+ZlqpCONCQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\crist\\Documents\\Github\\LPPA-UAI\\FacturacionLPPA\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\crist\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\crist\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BE2\bin\Debug\BE2.dll
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BE2\bin\Debug\BE2.pdb
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BE2\obj\Debug\BE.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BE2\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BE2\obj\Debug\BE2.dll
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\BE2\obj\Debug\BE2.pdb

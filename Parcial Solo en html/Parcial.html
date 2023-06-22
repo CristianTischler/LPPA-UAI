@@ -1,0 +1,46 @@
+﻿
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Parcial Solo HTML</title>
+    <link href="Parcial.css" rel="stylesheet" />
+    <script src="Parcial1.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server" method="post" action="Pagina2.aspx">
+        <div>
+            <h1 class="title">Registo</h1>
+            <h1 class="label">Nombre:</h1>
+            <input id="txtNombre" type="text" name="nombre" value="" />
+            <h1 class="label">Apellido:</h1>
+            <input id="txtApellido" type="text" name="apellido" value="" />
+            <h1 class="label">Email:</h1>
+            <input id="txtEmail" type="email" name="email" value="" />
+            <h1 class="label">Temas de interes:</h1>
+            <input id="txtChk1" type="checkbox" id="opcionMusica" name="opcionMusica" value="Musica"/>
+            <label for="opcionMusica">Musica</label><br/>
+            <input id="txtChk2" type="checkbox" id="opcionDeporte" name="opcionDeporte" value="Deporte"/>
+            <label for="opcionDeporte">Deporte</label><br/>
+            <input id="txtChk3" type="checkbox" id="opcionJuegos" name="opcionJuegos" value="Juegos"/>
+            <label for="opcionJuegos">Juegos</label><br/>
+            <input id="txtChk4" type="checkbox" id="opcionTecnologia" name="opcionTecnologia" value="Tecnologia"/>
+            <label for="opcionTecnologia">Tecnologia</label><br/>
+            <div class="containerPais">
+                <h1 class="label">Pais:</h1>
+                <select name="pais" class="dropdown" onchange="cargarPais()">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Uruguay">Uruguay</option>
+                </select>
+                <input type="hidden" id="paisHidden" runat="server" name="paisHidden" />
+            </div>
+            <h1 class="label">Comentarios:</h1>
+            <input type="text" name="comentarios" value="" /><br />
+            <input class="button" onclick="validarEnviar()" name="button" value="Enviar" />
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿body {
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.containerRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}

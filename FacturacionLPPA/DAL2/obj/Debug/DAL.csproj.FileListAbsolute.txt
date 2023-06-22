@@ -1,0 +1,9 @@
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\DAL2\bin\Debug\DAL2.dll
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\DAL2\bin\Debug\DAL2.pdb
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\DAL2\bin\Debug\BE2.dll
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\DAL2\bin\Debug\BE2.pdb
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\DAL2\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\DAL2\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\DAL2\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\DAL2\obj\Debug\DAL2.dll
+C:\Users\crist\Documents\Github\LPPA-UAI\FacturacionLPPA\DAL2\obj\Debug\DAL2.pdb

@@ -1,0 +1,22 @@
+﻿body {
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+}
+.containerPais {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dropdown{
+    margin-left: 10px;
+    max-height: 20px;
+}
+.button{
+    margin-left: 50px;
+    margin-top: 10px;
+    max-height: 20px;
+}
